@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Character Counter</title>
+    <link rel="stylesheet" href="Real-time Character Counter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="cover">
+            <div class="header">
+                <h1><i class="fa-solid fa-keyboard"></i> Character Counter</h1>
+                <p class="subtitle">Track your text length in real-time</p>
+            </div>
+            
+            <div class="input-section">
+                <textarea 
+                    rows="6" 
+                    maxlength="500" 
+                    required 
+                    class="text" 
+                    id="text-area" 
+                    placeholder="Start typing here..."></textarea>
+                
+                <div class="counter-section">
+                    <div class="counter-box">
+                        <span class="counter-label">Characters</span>
+                        <span id="Total-Characters" class="counter-value">0</span>
+                    </div>
+                    <div class="counter-box">
+                        <span class="counter-label">Remaining</span>
+                        <span id="Remaining-container" class="counter-value">500</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="features">
+                <div class="feature">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span>Real-time Updates</span>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-lock"></i>
+                    <span>500 Character Limit</span>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <span>Responsive Design</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Real-time Character Counter.js"></script>
+</body>
+</html>
