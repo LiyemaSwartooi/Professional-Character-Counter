@@ -2,7 +2,7 @@
 
 A modern, responsive character counter application built with HTML, CSS, and JavaScript. This tool provides real-time character counting with a beautiful user interface and smooth animations.
 
-![Dashboard Preview](Dashbord.png)
+![Dashboard Preview](./Dashbord.png)
 
 ## Features
 
